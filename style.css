@@ -1,0 +1,149 @@
+*{padding:0;
+    margin:0;
+box-sizing:border-box;
+}
+html{
+    height:100%;
+}
+
+body {
+    min-width:100%;
+    display:flex;
+   background-color:rgb(184, 163, 226);
+    background-position:center;
+    background-size:cover;
+    background-size:cover;
+    flex-direction:column;
+    padding:110px 50px;
+    background-image:linear-gradient(rgba(65, 55, 55, 0.7), #5164a9), url("logo.jpg");
+   
+}
+.header{
+    text-align:left;
+    background-color:rgb(226, 47, 178);
+    padding:0px 10px;
+    border:0px 0px;
+    min-width:100%;
+    overflow:hidden;
+    color:white;
+    background-size:cover;
+    top:0px;
+    left:-28px;
+    position:fixed;
+    display:inline-block;
+}
+.header h1 img{
+    width:125px;
+    height:125px;
+    margin:10px 10px 10px 10px;
+    left:10px;
+}
+.header h1{
+    padding:20px 20px;
+    display:inline;
+   
+}
+.text{
+    padding:20px 30px;
+    display:inline;
+}
+
+
+.nbar{
+    overflow:hidden;
+    padding:0px 20px;
+    top:153px;
+    position:fixed;
+    align-items:center;
+
+}
+
+.nbar a {
+    float:left;
+    display:block;
+    text-align:center;
+    background-color:rgb(225, 173, 210);
+    padding:10px 90.64px;
+    text-decoration:none;
+ 
+ }
+.nbar a:hover{
+    cursor:pointer;
+    background-color:rgb(111, 179, 239)
+
+}
+
+.footer{
+    background-color:rgb(226, 47, 178);
+    padding:20px 410px;
+    text-align:center;
+    margin-top:auto;
+    bottom:0px;
+    position:fixed;
+    left:-30px;
+}
+.footer i{
+    padding:10px 30px;
+    float:left;  
+}
+
+
+.dropdown button{
+    background-color:rgb(172, 115, 221);
+    padding:10px 20px;
+    border:none;
+    cursor:pointer;
+    width:100px;
+    color:rgb(112, 67, 67);
+    font-size:16px
+}
+.dropdown li{
+    list-style:none;
+    padding:8px 10px;
+    display:block;
+
+}
+.dropdown .content{
+   background-color:rgb(241, 140, 236);
+   width:150px;
+   display:none;
+}
+
+.dropdown:hover .content{
+    display:block;
+    
+}
+.dropdown li:hover{
+    background-color:rgb(230, 117, 252);
+    cursor:pointer;
+}
+.dropdown{
+    display:inline;
+}
+ol{
+   
+    width:150px;
+    padding:10px 16px;
+}
+.main{
+    width:100vw;
+    height:400vh;
+    display:flex;
+    text-align:center;
+
+}
+.menu{
+    width:20%;
+    background-color:#121227;
+    left:-80px;
+}
+#service{
+    color:white;
+    font-size:16px;
+    letter-spacing:2px;
+    padding:13px;
+    background-color:#000;
+}
+
+
+
